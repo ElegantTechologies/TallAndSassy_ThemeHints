@@ -1,0 +1,18 @@
+<?php
+
+namespace ElegantTechnologies\TallAndSassy_ThemeHints\Facades;
+
+use Illuminate\Support\Facades\Facade;
+
+class TallAndSassy_ThemeHints extends Facade
+{
+    /**
+     * Get the registered name of the component.
+     *
+     * @return string
+     */
+    protected static function getFacadeAccessor()
+    {
+        return 'tallandsassy_themehints';
+    }
+}

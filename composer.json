@@ -1,0 +1,43 @@
+{
+    "name": "eleganttechnologies/tallandsassy_themehints",
+    "description": "Components and UI tools to help provide constist UI to your app.  For example, all modal links should look a certain way, and all page changing links should look another.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "JJ Rohrer",
+            "email": "jj.github@rohrer.org",
+            "homepage": "www.elegantechnologies.com"
+        }
+    ],
+    "homepage": "https://github.com/eleganttechnologies/tallandsassy_themehints",
+    "keywords": ["Laravel", "TallAndSassy_ThemeHints"],
+    "require": {
+        "illuminate/support": "~5|~6|~7"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^8.0",
+        "mockery/mockery": "^1.1",
+        "orchestra/testbench": "~3|~4",
+        "sempro/phpunit-pretty-print": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "ElegantTechnologies\\TallAndSassy_ThemeHints\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "ElegantTechnologies\\TallAndSassy_ThemeHints\\Tests\\": "tests"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "ElegantTechnologies\\TallAndSassy_ThemeHints\\TallAndSassy_ThemeHintsServiceProvider"
+            ],
+            "aliases": {
+                "TallAndSassy_ThemeHints": "ElegantTechnologies\\TallAndSassy_ThemeHints\\Facades\\TallAndSassy_ThemeHints"
+            }
+        }
+    }
+}
