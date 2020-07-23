@@ -6,6 +6,12 @@
             @component('eleganttechnologies::components.TextLinkToPage',['href'=>'http://www.google.com', 'text'=>"Why not worky"])
         </div>
         <hr>
+        <div>
+        This would Activate a modal
+                <a href="http://google.com" class="{{ config('tallandsassy_themehints.popupInnerText_classes') }}" style="{{ config('tallandsassy_themehints.popupInnerText_style') }}" >Google</a>
+
+        </div>
+        <hr>
 
         <div>
         This would be a link to a new tab: <a href="http://google.com"  target="_blank" class="{{ config('tallandsassy_themehints.new_tab_classes') }}" style="{{ config('tallandsassy_themehints.new_tab_style') }}" >Google {!! config('tallandsassy_themehints.new_tab_icon_html') !!}</a>
