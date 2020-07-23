@@ -1,9 +1,8 @@
  <div class="flex flex-col justify-center min-h-screen py-12 bg-gray-50 sm:px-6 lg:px-8">
+
         <div>
         This would be a link to a new page
-                <a href="http://google.com" class="{{ config('tallandsassy_themehints.link_to_classes') }}" >Google</a>
-            --or, if it worked, like this --...
-            @component('eleganttechnologies::components.TextLinkToPage',['href'=>'http://www.google.com', 'text'=>"Why not worky"])
+        <a href="http://google.com" class="{{ config('tallandsassy_themehints.link_to_classes') }}" style="{{ config('tallandsassy_themehints.link_to_style') }}">Google</a>
         </div>
         <hr>
         <div>
@@ -44,4 +43,5 @@
         </div>
     </div>
 
-    @include('eleganttechnologies::embedded_stylesheet')
+    @include('eleganttechnologies::base')
+
