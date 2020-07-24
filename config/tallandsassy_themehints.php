@@ -29,7 +29,11 @@ return [
         content: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAQElEQVR42qXKwQkAIAxDUUdxtO6/RBQkQZvSi8I/pL4BoGw/XPkh4XigPmsUgh0626AjRsgxHTkUThsG2T/sIlzdTsp52kSS1wAAAABJRU5ErkJggg==);
         margin: 0 3px 0 5px;
     }
-
     EOD,
+
+    //-- Link to out program
+    'link_to_outside_classes' => 'text-indigo-600  underline',
+    'link_to_outside_style' => '',
+    'link_to_outside_rightHtml' => '<span class="text-gray-400 text-xs no-underline">⇪</span>',
 
 ];
