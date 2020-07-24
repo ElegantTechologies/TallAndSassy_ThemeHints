@@ -1,6 +1,9 @@
 <?php
 
 return [
+    //-- User Theme
+    'baseSectionColor'=>'blue',
+
     //--Text to Modal--
     'popupInnerText_classes' =>     "text-sm font-medium text-indigo-600",
     'popupInnerText_style' =>   "border-bottom: 1px dotted; text-shadow: 0.5px 0.5px 1px #64748b",
